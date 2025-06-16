@@ -1,8 +1,11 @@
 ﻿using System;
 namespace DependencyInjection
 {
-	//Abstraction for sending message
-	public interface IMessageSender
+    /// <summary>
+    /// Defines the abstraction for sending messages.
+    /// Any implementation (console, SMTP, in-memory, etc.) must implement this.
+    /// </summary>
+    public interface IMessageSender
 	{
 		void Send(string message);
 	}
