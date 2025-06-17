@@ -4,6 +4,7 @@ namespace DependencyInjection
     /// <summary>
     /// A test‐only sender that keeps messages in memory.
     /// Useful in unit tests where you assert on Messages.
+    /// 
     /// </summary>
     public class InMemorySender:IMessageSender
     {

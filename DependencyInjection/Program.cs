@@ -87,6 +87,7 @@ namespace DependencyInjection
                 Console.WriteLine(scope2.ServiceProvider.GetService<GuidService>().Id);
                 Console.WriteLine(scope2.ServiceProvider.GetService<GuidService>().Id);
             }
+            Console.ReadLine();
         }
     }
 }
